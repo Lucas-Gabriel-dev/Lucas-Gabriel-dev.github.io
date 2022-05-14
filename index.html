@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700&display=swap" rel="stylesheet"> 
+    
+    <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <script defer src="script/script.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="https://unpkg.com/phosphor-icons"></script>
+
+
+    <title>Livro</title>
+</head>
+<body>
+    <div class="content">
+        <header>
+            <h1 class="title">CONSQUISTE O EMPREGO DOS SONHOS!</h1>
+        </header>
+        
+
+        <div id="container">
+            <p class="text">
+                Descubra como <mark class="contrast"> conquistar o emprego dos sonhos
+                em até <mark class="font"></mark><br> UM MÊS!!!</mark><br><br>
+        
+                Sem precisar entregar dezenas de currículos...<br><br>
+                
+                <mark class="destaque">Recrutadora especialista <u>revela método</u> </mark> que destaca seu<br>
+                perfil para qualquer oportunidade <mark class="destaque">independente da sua <br> idade</mark>
+                ou de quanto tempo esta fora do mercado.<br>
+            </p>
+        </div>
+
+        <div id="displayVideo">
+            <video class="video" poster="assets/marketingdigital.jpg" src="assets/Nirvana.mp4">Erro 
+            </video>
+            <div class="buttons">
+                <button class="buttonPlay" style="display: none;" onclick="playPause()">
+                    <span class="material-symbols-outlined">
+                        play_circle
+                    </span>  
+
+                </button>
+    
+                <button class="buttonPause" style="display: none;" onclick="playPause()">
+                    <span class="material-symbols-outlined">
+                        pause_circle
+                    </span>
+                </button> 
+            </div>    
+        </div> 
+
+        <section class="infoSound">
+            <nobr><p class="text">Verifique se o som do seu celular está ligado</p></nobr>
+            <img src="assets/sound.svg" alt="Imagem de uma caixa de som"> 
+        </section>
+
+        <div class="button" style="display:none;">
+            <button>
+                QUERO ADQUIRIR O LIBERTE-SE
+            </button>
+        </div>
+        
+        <div id="questions">
+            <h2>13 comentários</h2>
+            <hr></hr>
+            <div class="questions">
+
+                <div class="question-wrapper">
+                    <div class="question-content">
+                        <div class="user">
+                            <img src="assets/persons/JulianaBarros.jpg" alt="Foto de perfil">
+                        </div>
+                        <div class="question">  
+                            <p class="name"> Juliana Barros </p>
+                            <p>
+                                Eu mal posso descrever o quão bom é esse método. 
+                                Estava à anos desempregada e consegui uma oportunidade
+                                pouco tempo depois de aplicar o método 😍😍😍.
+                            </p>
+
+                            <div class="actions">
+                                <p>Responder</p>
+                                <div class="separator"></div>
+        
+                                <p>Curtir</p>
+                                <div class="separator"></div>
+        
+                                <p>Seguir</p>
+                                <div class="separator"></div>
+        
+                                <p>3 min</p>
+                            </div>
+                        </div>
+    
+                        
+                    </div>
+                </div> 
+
+                <div class="question-wrapper">
+                    <div class="question-content">
+                        <div class="user">
+                            <img src="./../assets/persons/MariaLima.jpg" alt="Foto de perfil">
+                        </div>
+                        <div class="question">  
+                            <p class="name"> Maria Lima </p>
+                            <p>
+                                Estou impressionada!! Não conseguia um emprego fazia
+                                anos, depois que comprei o livro consegui em uma semana!
+                            </p>
+
+                            <div class="actions">
+                                <p>Responder</p>
+                                <div class="separator"></div>
+        
+                                <p>Curtir</p>
+                                <div class="separator"></div>
+        
+                                <p>Seguir</p>
+                                <div class="separator"></div>
+        
+                                <p>20 min</p>
+                            </div>
+                        </div>
+    
+                        
+                    </div>
+                </div> 
+
+                <div class="question-wrapper">
+                    <div class="question-content">
+                        <div class="user">
+                            <img src="./../assets/persons/RobertaJesus.jpg" alt="Foto de perfil">
+                        </div>
+                        <div class="question">  
+                            <p class="name"> Roberta Jesus </p>
+                            <p>
+                                Estou muito feliz, fazia muitos anos que não atuava no mercado
+                                estava ficando em depressão e achava que era incapaz
+                                de retornar ao mercado de trabalho. Obrigada Liberte-se, obrigada! ❣️ 
+                            </p>
+
+                            <div class="actions">
+                                <p>Responder</p>
+                                <div class="separator"></div>
+        
+                                <p>Curtir</p>
+                                <div class="separator"></div>
+        
+                                <p>Seguir</p>
+                                <div class="separator"></div>
+        
+                                <p>50 min</p>
+                            </div>
+                        </div>
+    
+                        
+                    </div>
+                </div>
+
+                <div class="question-wrapper answer" >
+                    <div class="question-content">
+                        <div class="user space"></div>
+
+                        <div class="user">
+                            <img src="./../assets/persons/JuliaSilva.jpg" alt="Foto de perfil">
+                        </div>
+                        <div class="question">  
+                            <p class="name"> Julia Silva </p>
+                            <p>
+                               Parabéns amiga, você é capaz! 
+                            </p>
+
+                            <div class="actions">
+                                <p>Responder</p>
+                                <div class="separator"></div>
+        
+                                <p>Curtir</p>
+                                <div class="separator"></div>
+        
+                                <p>Seguir</p>
+                                <div class="separator"></div>
+        
+                                <p>30 min</p>
+                            </div>
+                        </div>
+    
+                        
+                    </div>
+                </div>
+
+                <div class="question-wrapper answer" >
+                    <div class="question-content">
+                        <div class="user space"></div>
+
+                        <div class="user">
+                            <img src="./../assets/persons/LuciaSantos.jpg" alt="Foto de perfil">
+                        </div>
+                        <div class="question">  
+                            <p class="name"> Lucia Santos </p>
+                            <p>
+                               Parabéns amiga, estava com um pouco de receio de comprar,
+                               mas depois desses relatos vou arriscar!! São muitas histórias
+                               parecidas com a minha!
+                            </p>
+
+                            <div class="actions">
+                                <p>Responder</p>
+                                <div class="separator"></div>
+        
+                                <p>Curtir</p>
+                                <div class="separator"></div>
+        
+                                <p>Seguir</p>
+                                <div class="separator"></div>
+        
+                                <p>16 min</p>
+                            </div>
+                        </div>
+    
+                        
+                    </div>
+                </div>
+
+                <div class="question-wrapper">
+                    <div class="question-content">
+                        <div class="user">
+                            <img src="./../assets/persons/JulianaAndrade.jpg" alt="Foto de perfil">
+                        </div>
+                        <div class="question">  
+                            <p class="name"> Juliana Andrade </p>
+                            <p>
+                                Como explicar a magia desse método?! Impressionante como consegui uma
+                                oportunidade em apenas duas semanas depois de usar as dicas do livro 🤩.    
+                            </p>
+
+                            <div class="actions">
+                                <p>Responder</p>
+                                <div class="separator"></div>
+        
+                                <p>Curtir</p>
+                                <div class="separator"></div>
+        
+                                <p>Seguir</p>
+                                <div class="separator"></div>
+        
+                                <p>12 min</p>
+                            </div>
+                        </div>
+    
+                        
+                    </div>
+                </div>
+
+                <div class="question-wrapper">
+                    <div class="question-content">
+                        <div class="user">
+                            <img src="./../assets/persons/SolangeGomes.jpg" alt="Foto de perfil">
+                        </div>
+                        <div class="question">  
+                            <p class="name"> Solange Gomes </p>
+                            <p>
+                                Eu amei o método passado por essa Recrutadora especialista 🤩. Em poucas
+                                semanas consegui uma oportunidade de emprego.    
+                            </p>
+
+                            <div class="actions">
+                                <p>Responder</p>
+                                <div class="separator"></div>
+        
+                                <p>Curtir</p>
+                                <div class="separator"></div>
+        
+                                <p>Seguir</p>
+                                <div class="separator"></div>
+        
+                                <p>7 min</p>
+                            </div>
+                        </div>
+    
+                        
+                    </div>
+                </div>
+
+                <div class="question-wrapper">
+                    <div class="question-content">
+                        <div class="user">
+                            <img src="./../assets/persons/FernandaSoares.jpg" alt="Foto de perfil">
+                        </div>
+                        <div class="question">  
+                            <p class="name"> Fernanda Soares </p>
+                            <p>
+                                Pessoal recomendo muitooooooo, juro amei migas!! Assistam o vídeo
+                                todo para vocês verem!!  
+                            </p>
+
+                            <div class="actions">
+                                <p>Responder</p>
+                                <div class="separator"></div>
+        
+                                <p>Curtir</p>
+                                <div class="separator"></div>
+        
+                                <p>Seguir</p>
+                                <div class="separator"></div>
+        
+                                <p>36 min</p>
+                            </div>
+                        </div>
+    
+                        
+                    </div>
+                </div>
+
+                <div class="question-wrapper">
+                    <div class="question-content">
+                        <div class="user">
+                            <img src="./../assets/persons/AntoniaAlves.jpg" alt="Foto de perfil">
+                        </div>
+                        <div class="question">  
+                            <p class="name"> Antonia Alves </p>
+                            <p>
+                                Antes não conseguia nenhuma oportunidade, depois que 
+                                passei a usar o método consegui ingressar novamente
+                                no mercado de trabalho. Ameiii!
+                            </p>
+
+                            <div class="actions">
+                                <p>Responder</p>
+                                <div class="separator"></div>
+        
+                                <p>Curtir</p>
+                                <div class="separator"></div>
+        
+                                <p>Seguir</p>
+                                <div class="separator"></div>
+        
+                                <p>26 min</p>
+                            </div>
+                        </div>
+    
+                        
+                    </div>
+                </div>
+
+                <div class="question-wrapper">
+                    <div class="question-content">
+                        <div class="user">
+                            <img src="./../assets/persons/MariaAparecida.jpg" alt="Foto de perfil">
+                        </div>
+                        <div class="question">  
+                            <p class="name"> Maria Aparecida </p>
+                            <p>
+                                Achei interessante a proposta apresentada neste método,
+                                alguém pode dizer se é confiável??
+                            </p>
+
+                            <div class="actions">
+                                <p>Responder</p>
+                                <div class="separator"></div>
+        
+                                <p>Curtir</p>
+                                <div class="separator"></div>
+        
+                                <p>Seguir</p>
+                                <div class="separator"></div>
+        
+                                <p>45 min</p>
+                            </div>
+                        </div>
+    
+                        
+                    </div>
+                </div>
+
+                <div class="question-wrapper answer">
+                    <div class="question-content">
+                        <div class="user space"></div>
+
+                        <div class="user">
+                            <img src="./../assets/persons/LuisaMachado.jpg" alt="Foto de perfil">
+                        </div>
+                        <div class="question">  
+                            <p class="name"> Luisa Machado </p>
+                            <p>
+                                Amiga pode confiar, estou colocando em práticas alguns
+                                dos ensimentos passados pela Recrutadora e já estou me
+                                sentido confiante para reingressar no mercado de trabalho!
+                            </p>
+
+                            <div class="actions">
+                                <p>Responder</p>
+                                <div class="separator"></div>
+        
+                                <p>Curtir</p>
+                                <div class="separator"></div>
+        
+                                <p>Seguir</p>
+                                <div class="separator"></div>
+        
+                                <p>21 min</p>
+                            </div>
+                        </div>
+    
+                        
+                    </div>
+                </div>
+
+                <div class="question-wrapper answer">
+                    <div class="question-content">  
+                        <div class="user space"></div>
+
+                        <div class="user">
+                            <img src="./../assets/persons/PaulaSantos.jpg" alt="Foto de perfil">
+                        </div>
+                        <div class="question">  
+                            <p class="name"> Paula Santos </p>
+                            <p>
+                                Passei a usar o método apresentado no vídeo e gostei muito,
+                                também estava com um pé atrás, não sabia se era confiável, 
+                                mas agora recomendo!
+                            </p>
+
+                            <div class="actions">
+                                <p>Responder</p>
+                                <div class="separator"></div>
+        
+                                <p>Curtir</p>
+                                <div class="separator"></div>
+        
+                                <p>Seguir</p>
+                                <div class="separator"></div>
+        
+                                <p>13 min</p>
+                            </div>
+                        </div>
+    
+                        
+                    </div>
+                </div>
+
+                <div class="question-wrapper">
+                    <div class="question-content">
+                        <div class="user">
+                            <img src="./../assets/persons/MariaFatima.jpg" alt="Foto de perfil">
+                        </div>
+                        <div class="question">  
+                            <p class="name"> Maria Fatima </p>
+                            <p>
+                                Gostei muito do método apresentado no vídeo, recomendo!
+                            </p>
+
+                            <div class="actions">
+                                <p>Responder</p>
+                                <div class="separator"></div>
+        
+                                <p>Curtir</p>
+                                <div class="separator"></div>
+        
+                                <p>Seguir</p>
+                                <div class="separator"></div>
+        
+                                <p>11 min</p>
+                            </div>
+                        </div>
+    
+                        
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+        
+        <div id="footer">
+            <p class="fontWeight">Copyright 2022 Liberte-se – Todos os direitos reservados</p>
+            <p>
+                Este site não faz parte do site do Facebook ou Facebook Inc. 
+                Além disso, este site NÃO é endossado pelo Facebook de forma alguma. 
+                FACEBOOK é uma marca registrada da FACEBOOK, Inc.
+            </p>
+
+            <p class="fontWeight">AVISO LEGAL</p>
+            <p> 
+                Não pretendemos diagnosticar, tratar, curar ou prevenir qualquer 
+                doença ou enfermidade. As informações são compartilhadas apenas para 
+                fins educacionais. Você deve sempre consultar seu médico antes de 
+                agir em qualquer conteúdo deste site, especialmente se estiver 
+                grávida, amamentando, tomando medicação ou tiver uma condição médica.
+            </p>
+
+            <a href="./../termsOfuses/index.html">
+                Termos de Serviço | Políticas de Privacidade
+            </a>
+
+            <!-- <p>
+                GMS Serviços Administrativos – CNPJ: 38.431.330/0001-04
+            </p> -->
+        </div>
+        
+    </div>
+    
+</body>
+</html>
