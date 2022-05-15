@@ -14,7 +14,7 @@ myvideo.addEventListener('click', function(){
 
 
 function playPause(){
-    setTimeout(function(){ buttonRedirect.style.display = '';}, 1414800);
+    setTimeout(function(){ buttonRedirect.style.display = '';}, 1326000);
 
     if(myvideo.paused){
         myvideo.play();
