@@ -44,7 +44,6 @@ header h1{
     margin: 0px;
 }
 
-
 #container{
     height: auto;
 
@@ -71,7 +70,6 @@ mark.destaque{
 }
 
 /* Video */
-
 #displayVideo{
     position: relative;
 }
@@ -80,7 +78,6 @@ mark.destaque{
     width: 70%;
     max-width: 125rem;
 }
-
 
 #displayVideo .buttons .material-symbols-outlined {
   font-variation-settings:
@@ -109,9 +106,7 @@ mark.destaque{
 
 #displayVideo .buttons button:hover{
     cursor: pointer;
-    /* filter: brightness(1.2); */
 } 
-
 
 .infoSound{
     display: flex;
@@ -123,32 +118,33 @@ mark.destaque{
 
 .infoSound img{
     margin: 2%;
-
 }
 
+.button{
+    margin-top: clamp(1rem, 3.5vh, 5rem);
+    margin-bottom: clamp(9rem, 3.5vh, 15rem);
+}
 
-.button button{
+.button a{
     font-size: clamp(.1rem, 3.5vw, 4rem);
     color: white;
+    
+    text-decoration: none;
 
     background: #FB00C4;
 
     width: 70%;
     max-width: 887px;
 
-    height: auto;
-    
-    padding: 28px 39px;
-
     border: none;
     border-radius: 10px;
 
-    margin-bottom: clamp(9rem, 3.5vh, 15rem);
+    padding: 28px 39px;
 
     transition: filter .2s;
 }
 
-.button button:hover{
+.button a:hover{
     cursor: pointer;
     filter: brightness(1.2);
 }
@@ -250,8 +246,6 @@ mark.destaque{
     background-color: #90949C;
 }
 
-
-
 #footer{
     margin-top: 6rem;
     padding: 2.5rem;
@@ -289,6 +283,19 @@ a{
         width: 8%;
     }
 
+    .button{
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+    
+    .button a{
+        font-size: 1.6rem;
+    
+        padding: 20px 31px;
+    
+        transition: filter .2s;
+    }
+
     #questions h2{
         font-size: 1.2rem;
 
@@ -316,7 +323,6 @@ a{
     }
 
     .question-wrapper .actions p{
-        /* font-size: .8rem; */
         margin-left: 0px;
     
         color: #90949C;
