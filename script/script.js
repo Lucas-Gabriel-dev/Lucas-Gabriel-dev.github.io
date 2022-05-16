@@ -5,16 +5,16 @@ var buttonPause = document.querySelector(".buttonPause")
 
 var buttonRedirect = document.querySelector(".button")
 
-buttonPlay.style.display = '';
-
-
 myvideo.addEventListener('click', function(){
     playPause()
 })
 
-
 function playPause(){
     setTimeout(function(){ buttonRedirect.style.display = '';}, 1326000);
+
+    if(myvideo.currentTime <= 0){
+        myvideo.currentTime = 0.55;
+    }
 
     if(myvideo.paused){
         myvideo.play();

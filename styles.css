@@ -75,8 +75,8 @@ mark.destaque{
 }
 
 #displayVideo video{ 
-    width: 70%;
-    max-width: 125rem;
+    width: 78%;
+    max-width: 192rem;
 }
 
 #displayVideo .buttons .material-symbols-outlined {
@@ -255,12 +255,12 @@ mark.destaque{
 
 #footer p,
 a{
-    font-size: clamp(.1rem, 4vw, 1.1rem);
+    font-size: clamp(.1rem, 4vw, .9rem);
     color: white;
 }
 
 #footer p.fontWeight{
-    font-size: clamp(.1rem, 4vw, 1.5rem);
+    font-size: clamp(.1rem, 4vw, 1.2rem);
     font-weight: 700;
 }
 
@@ -327,6 +327,18 @@ a{
     
         color: #90949C;
     } 
+
+    #footer p,
+    a{
+        font-size: .7rem;
+        color: white;
+    }
+
+    #footer p.fontWeight{
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
 }
 
 @media (max-width: 350px){
