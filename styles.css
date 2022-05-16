@@ -127,6 +127,7 @@ mark.destaque{
 
 .button a{
     font-size: clamp(.1rem, 3.5vw, 4rem);
+    font-family: 'Poppins', sans-serif;
     color: white;
     
     text-decoration: none;
